@@ -1,0 +1,26 @@
+/* Make the body a flex container */
+body {
+    display: flex;
+    flex-direction: column; /* Optional: stack content vertically */
+    min-height: 100vh; /* Ensure the body takes at least the full viewport height */
+}
+
+/* Make the main element a flex container */
+main {
+    display: flex;
+    flex-grow: 1; /* Allow the main content to grow and take up remaining space */
+    flex-direction: row; /* Optional: arrange child elements in a row */
+}
+main {
+    flex: auto; /* allow main to grow and take the remaining space*/
+    padding: 20px;
+    background color: #fofofo;
+}
+article {
+    flex: 2
+    overflow-y: auto
+}
+aside{
+    flex:1
+    overflow-y: auto
+}
