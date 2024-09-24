@@ -12,7 +12,7 @@ header {
 }
 
 /* Styling the first section */
-section {
+.bcg1{
     background-image: url('images/object.png');
   padding: 50px;
 }
