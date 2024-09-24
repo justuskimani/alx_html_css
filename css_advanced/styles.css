@@ -1,6 +1,6 @@
 /* Styling the header with a background image */
 header {
-  background-image: url('object.png'); /* Replace with the correct image path */
+  background-image: url('images/object.png'); /* Replace with the correct image path */
   background-size: cover; /* Ensures the image covers the header */
   background-position: center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents repetition */
@@ -13,7 +13,7 @@ header {
 
 /* Styling the first section */
 section {
-    background-image: url('object.png');
+    background-image: url('images/object.png');
   padding: 50px;
 }
 
