@@ -19,9 +19,14 @@ header {
 .logo {
     font-size: 24px;
     font-weight: bold;
+    position:absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: auto;
 }
 h1{
-  font-size: large;  
+  font-size: 70px;  
   font-weight: bold;
   text-align: center;
   color:white;
