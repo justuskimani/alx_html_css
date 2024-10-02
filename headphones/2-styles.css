@@ -77,3 +77,58 @@ color:#FF6565
     margin-bottom: 40px;
     padding-bottom: 80px;
 }
+.white{
+    margin-top: 100px
+    background-color;white:
+    padding-top:50px;
+
+}
+.white p{
+    text-align: center;
+}
+.heading{
+    text-align: center;
+}
+.bold{
+    font-weight: bold;
+}
+.box{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+.container{
+    margin: 10px;
+    padding: 20px;
+}
+.invert{
+    background-image:url(images/headphones_hero_2.jpg);
+    color: white;
+}
+.invert p{
+    text-align: center;
+}
+.invert h1{
+    text-align: center;
+   padding: 100px;
+   padding-bottom: 30px;
+}
+.pntg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 100%;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+.pentagon{
+    margin: 5px;
+    flex:1 1 200px;
+ 
+}
+.pentagon img{
+    width:50%;
+    height: auto;
+    object-fit: cover;
+    margin: 5px;
+}
