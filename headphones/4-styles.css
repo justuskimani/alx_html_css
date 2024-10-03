@@ -52,7 +52,8 @@
 .pentagon{
     margin: 5px;
     flex:1 1 200px;
- 
+    position: relative;
+    display: inline-block;
 }
 .pentagon img{
     width:50%;
@@ -60,6 +61,18 @@
     object-fit: cover;
     margin: 5px;
     padding-bottom: 50px;
+}
+.text-overlay{
+    position: absolute;
+    top:40%;
+    left:30%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-size: 12px;
+    font-weight:bold;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    margin-right: 10px;
+    padding-right: 10px;
 }
 .pentago{
     background-image: url(images/pentagone.png);
@@ -186,3 +199,65 @@ footer{
 .footlogo{
     margin-left: 50px;
 }
+/* mobile design  */
+@media screen and (max-width:480px){
+    .links{
+         display: hidden;
+     }
+     .left{
+         display: hidden;
+     }
+     
+     li{
+         display: none;
+     }
+     .harmburger{
+         display: block;
+         display: flex;
+         margin-right: 435px;
+     }
+     .p1{
+         color: white;
+         margin-top: 300px;
+         margin-left: 50px;
+     }
+     .button{
+         justify-content:center;
+         align-items: center;
+         border:20px;
+     
+         color:white;
+         border-color: black;
+         padding: 10px;
+         cursor: pointer;
+         display:flex;
+     }
+     .button1{
+         margin-top:15px;
+         display: inline-block;
+         background-color: red;
+         color:white;
+         text-align: center;
+         border-radius: 20px;
+         padding: 10px;
+     }
+     .button1:hover{
+         opacity: 0.9;
+     }
+     .long{
+         color:white;
+         text-align: center;
+         margin-top: 70px;
+         margin-bottom: 40px;
+         padding-bottom: 80px;
+         margin-left: 50px;
+         margin-right: 50px;
+         padding-left: 20px;
+         padding-right: 20px;
+     }
+     .logo1{
+         width: 150px;
+         margin-left: 180px;
+     }
+ }
+    

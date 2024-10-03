@@ -41,6 +41,14 @@
    padding: 100px;
    padding-bottom: 30px;
 }
+.pentagon{
+    width:150px;
+    height: 150px;
+    background-color:#c84040;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    margin:50px auto;
+    margin-left: 50px;
+}
 .pntg{
     display: flex;
     flex-wrap: wrap;
@@ -49,20 +57,19 @@
     margin-left: 100px;
     margin-top: 60px;
 }
-.pentagon{
-    margin: 5px;
-    flex:1 1 200px;
- 
+.text-overlay{
+    position: absolute;
+    top:40%;
+    left:30%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-size: 12px;
+    font-weight:bold;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    margin-right: 10px;
+    padding-right: 10px;
 }
-.pentagon img{
-    width:50%;
-    height: auto;
-    object-fit: cover;
-    margin: 5px;
-}
-.pentago{
-    background-image: url(images/pentagone.png);
-}.image1{
+.image1{
     background-image: url(images/headphones_hero_1.jpg)
   
 }
@@ -133,6 +140,57 @@ color:#FF6565
 }
 .button1:hover{
     opacity: 0.9;
+}
+form{
+    width: 300px;
+    margin: 0 auto;
+}
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px 0;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 16px;
+    outline: none;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-bottom: 2px solid #4CAF50;
+    outline: none;
+}
+
+textarea {
+    resize: none; /* Prevent resizing for the message box */
+}
+.labels{
+    text-align: center;
+}
+.head{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.form-group{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+footer{
+    background-color: black;
+    color: rgb(161, 158, 158);
+}
+.footlogo{
+    margin-left: 50px;
 }
 /* mobile design  */
 @media screen and (max-width:480px){
