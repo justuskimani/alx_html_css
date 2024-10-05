@@ -134,6 +134,9 @@ color:#FF6565
 .button1:hover{
     opacity: 0.9;
 }
+.harmburger{
+    display: none;
+}
 /* mobile design  */
 @media screen and (max-width:480px){
     .links{
@@ -149,7 +152,7 @@ color:#FF6565
      .harmburger{
          display: block;
          display: flex;
-         margin-right: 435px;
+         margin-right: 580px;
      }
      .p1{
          color: white;

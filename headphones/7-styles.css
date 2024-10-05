@@ -194,6 +194,9 @@ footer{
 .footlogo{
     margin-left: 50px;
 }
+.harmburger{
+    display: none;
+}
 /* mobile design  */
 @media screen and (max-width:480px){
     .links{
@@ -209,7 +212,7 @@ footer{
      .harmburger{
          display: block;
          display: flex;
-         margin-right: 435px;
+         margin-right: 580px;
      }
      .p1{
          color: white;
